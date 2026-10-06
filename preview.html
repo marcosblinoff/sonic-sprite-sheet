@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purple Visor Sprite Preview</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #111827;
+        color: #e5e7eb;
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+      }
+      .panel {
+        background: #1f2937;
+        border: 1px solid #374151;
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+      }
+      h1 {
+        margin: 0 0 18px;
+        font-size: 20px;
+      }
+      .sheet {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        background: #0f172a;
+        padding: 16px;
+        border-radius: 8px;
+      }
+      .cell {
+        text-align: center;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 8px;
+        padding: 10px 6px;
+      }
+      .cell img {
+        display: block;
+        margin: 0 auto 8px;
+        image-rendering: pixelated;
+      }
+      .caption {
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #cbd5e1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="panel">
+      <h1>Purple Visor Character Sprite Sheet</h1>
+      <div class="sheet">
+        <div class="cell">
+          <img src="assets/purple_visor_sprites.svg" alt="Standing" width="32" height="32" />
+          <div class="caption">Standing</div>
+        </div>
+        <div class="cell">
+          <img src="assets/purple_visor_sprites.svg" alt="Walking" width="32" height="32" />
+          <div class="caption">Walking</div>
+        </div>
+        <div class="cell">
+          <img src="assets/purple_visor_sprites.svg" alt="Running" width="32" height="32" />
+          <div class="caption">Running</div>
+        </div>
+        <div class="cell">
+          <img src="assets/purple_visor_sprites.svg" alt="Ducking" width="32" height="32" />
+          <div class="caption">Ducking</div>
+        </div>
+        <div class="cell">
+          <img src="assets/purple_visor_sprites.svg" alt="Spin Dash" width="32" height="32" />
+          <div class="caption">Spin Dash</div>
+        </div>
+        <div class="cell">
+          <img src="assets/purple_visor_sprites.svg" alt="Ball Roll" width="32" height="32" />
+          <div class="caption">Ball Roll</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
